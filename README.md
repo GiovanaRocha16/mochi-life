@@ -54,9 +54,9 @@ Mochi Life
 
 ## ✨ Ideias futuras
 
-- 🐱 Mochi com diferentes expressões (feliz, triste, com sono)
-- ⏳ Fome diminuindo com o tempo automaticamente
-- 🎮 Animações quando clicar nos botões
+- 🛒 Lojinha de itens
+- 🎮 Minigames
+- ⏳ Sistema de evolução do Mochi
 - 💾 Sistema de salvar progresso
 
 ---
