@@ -44,7 +44,7 @@ Mochi Life
 
 1. Clone o repositório:
 
-  git clone https://github.com/seu-usuario/mochi-life.git
+  git clone https://github.com/GiovanaRocha16/mochi-life.git
 
 2. Abra a pasta do projeto
 
