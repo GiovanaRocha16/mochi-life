@@ -56,7 +56,6 @@ Mochi Life
 
 - 🐱 Mochi com diferentes expressões (feliz, triste, com sono)
 - ⏳ Fome diminuindo com o tempo automaticamente
-- 📱 Versão mobile ainda mais realista
 - 🎮 Animações quando clicar nos botões
 - 💾 Sistema de salvar progresso
 
