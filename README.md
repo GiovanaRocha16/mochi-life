@@ -13,6 +13,7 @@ Você cuida do Mochi alimentando, brincando e mantendo seus status equilibrados.
 - 📊 Sistema de status: fome, felicidade e energia
 - 🖼️ Interface estilo aplicativo de celular
 - 🎨 Visual personalizado com imagens feitas no Canva
+- 🎮 Primeira versão de minigames
 
 ---
 
@@ -26,18 +27,19 @@ Você cuida do Mochi alimentando, brincando e mantendo seus status equilibrados.
 
 ## 📁 Estrutura do projeto
 
-Mochi Life  
-│  
-├── index.html  
-├── style.css  
-├── script.js  
-└── img/  
-  ├── quarto.png  
-  ├── mochi.png  
-  ├── alimentar.png  
-  ├── brincar.png  
-  └── dormir.png  
-
+Mochi Life
+│
+├── index.html
+├── minigames.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   ├── script.js
+│   └── minigames.js
+│
+└── img/
 ---
 
 ## 🚀 Como rodar o projeto
@@ -55,7 +57,6 @@ Mochi Life
 ## ✨ Ideias futuras
 
 - 🛒 Lojinha de itens
-- 🎮 Minigames
 - ⏳ Sistema de evolução do Mochi
 - 💾 Sistema de salvar progresso
 
