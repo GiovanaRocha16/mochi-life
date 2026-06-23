@@ -27,19 +27,17 @@ Você cuida do Mochi alimentando, brincando e mantendo seus status equilibrados.
 
 ## 📁 Estrutura do projeto
 
+```text
 Mochi Life
-│
 ├── index.html
 ├── minigames.html
-│
 ├── css/
 │   └── style.css
-│
 ├── js/
 │   ├── script.js
 │   └── minigames.js
-│
 └── img/
+```
 ---
 
 ## 🚀 Como rodar o projeto
