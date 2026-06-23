@@ -1,6 +1,9 @@
 let fome = 50;
 let felicidade = 50;
 let energia = 50;
+let moedas = 0;
+
+const textoMoedas = document.getElementById("moedas");
 const mochiImg = document.getElementById("mochi");
 const textoFome = document.getElementById("fome");
 const textoFelicidade = document.getElementById("felicidade");
@@ -10,6 +13,7 @@ const textoEstado = document.getElementById("estado");
 const botaoAlimentar = document.getElementById("alimentar");
 const botaoBrincar = document.getElementById("brincar");
 const botaoDormir = document.getElementById("dormir");
+const botaoMinigame = document.getElementById("minigame");
 
 function atualizarTela() {
     textoFome.textContent = "🍔 Fome: " + fome;
@@ -73,6 +77,10 @@ botaoDormir.addEventListener("click", function () {
     fome -= 5;
 
     atualizarTela();
+});
+
+botaoMinigame.addEventListener("click", function () {
+    window.location.href = "minigames.html";
 });
 
 setInterval(() => {
