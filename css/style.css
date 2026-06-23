@@ -21,7 +21,7 @@ body {
 
     border-radius: 20px;
 
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .quarto {
@@ -38,8 +38,10 @@ body {
     width: 400px;
 
     position: absolute;
+
     bottom: -150px;
     left: 50%;
+
     transform: translateX(-50%);
 }
 
@@ -55,37 +57,29 @@ p {
     gap: 15px;
 
     margin-top: 20px;
-}
 
-.botoes {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .botoes button {
-    width: 110px;
-    height: 110px;
+    width: 160px;
+    height: 50px;
 
     border: none;
     border-radius: 20px;
 
     cursor: pointer;
 
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 
-    color: white;
-
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 
-    gap: 5px;
+    gap: 8px;
 
-    box-shadow: 0 8px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
 
     transition: all 0.1s ease;
 
@@ -94,27 +88,74 @@ p {
 
 .botoes button:active {
     transform: translateY(5px);
-    box-shadow: 0 3px 0 rgba(0,0,0,0.25);
+
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
 }
 
 #alimentar,
 #brincar,
+#dormir,
 #minigame,
-#dormir {
+#adivinhar,
+#cliqueRapido,
+#voltar {
     background: #c7e0ee;
     color: #1f2a33;
 
-    border: 2px solid rgba(0,0,0,0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.botoes button {
-    width: 160px;
-    height: 50px;
+.jogo {
+    width: 700px;
+    min-height: 500px;
 
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+#tentativa {
+    width: 150px;
+
+    padding: 10px;
+
+    margin: 15px;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    border-radius: 10px;
+    border: 2px solid #c7e0ee;
+}
+
+.botao-mochi {
+    width: 220px;
+    height: 55px;
+
+    background: #c7e0ee;
+    color: #1f2a33;
+
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 
     font-size: 18px;
-    gap: 8px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin: 10px;
+
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
+
+    transition: all 0.1s ease;
+}
+
+.botao-mochi:active {
+    transform: translateY(5px);
+
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
 }
